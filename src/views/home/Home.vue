@@ -3,6 +3,9 @@
       <el-col class="header" :span="24">
         <div class="title">
           Jerry&Jean's Inn.
+          <p>
+            Welcome our's Inn.
+          </p>
         </div>
         <div class="tag_contain">
           <a href="/" @mousemove="move_style" @mouseout="move_out">Home</a>
@@ -64,6 +67,11 @@ export default {
     .title {
       font-size: 50px;
       font-weight: bold;
+      p {
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: 20px;
+      }
     }
     .tag_contain {
       margin-top: 30px;

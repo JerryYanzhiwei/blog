@@ -25,6 +25,7 @@ export default {
   height: 100%;
   top: 0;
   left: 0;
+  z-index: 9999;
   // background: linear-gradient(to right, #001223 0%, #16314c 100%) transparent;
   background-image: url(../assets/img/desk.jpg);
   background-size: 100% 100%;
@@ -35,7 +36,7 @@ export default {
   -webkit-animation: scaleShow 6s linear 2s 1 alternate;
   animation: scaleShow 6s linear 2s 1 alternate;
   // opacity: 0;
-  // display: none;
+  display: none;
   .text {
     width: 820px;
     height: 96px;
