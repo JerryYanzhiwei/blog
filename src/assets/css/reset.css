@@ -60,3 +60,12 @@ pre{
   word-wrap: break-word!important;
   *white-space:normal!important;
 }
+
+code {
+  width: 100%;
+  display: inline-block;
+  background: #08182d;
+  color: #bda5a5;
+  border-radius: 10px;
+  padding: 10px 0;
+}
